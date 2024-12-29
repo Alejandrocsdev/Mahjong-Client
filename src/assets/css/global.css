@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  box-sizing: border-box;
+  font-family: 'Noto Sans TC', 'Onest', sans-serif;
+}
+
+body {
+  line-height: 1;
+  color: var(--text-color);
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+a {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+:root {
+  --text-color: #0d1b2a;
+}
