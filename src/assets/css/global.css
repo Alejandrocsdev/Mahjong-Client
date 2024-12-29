@@ -5,11 +5,13 @@
   background: none;
   box-sizing: border-box;
   font-family: 'Noto Sans TC', 'Onest', sans-serif;
+  user-select: none;
 }
 
 body {
   line-height: 1;
-  color: var(--text-color);
+  color: var(--black);
+  background-color: var(--mahjong-green);
 }
 
 ol,
@@ -18,10 +20,11 @@ ul {
 }
 
 a {
-  color: var(--text-color);
+  color: var(--black);
   text-decoration: none;
 }
 
 :root {
-  --text-color: #0d1b2a;
+  --black: #0d1b2a;
+  --mahjong-green: #25a244;
 }

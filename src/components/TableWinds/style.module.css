@@ -1,0 +1,33 @@
+.wind {
+  width: 5rem;
+  opacity: 0.5;
+  position: absolute;
+}
+
+.east {
+  bottom: 25%;
+  left: 50%;
+  transform: translate(-50%, 20%);
+}
+
+.south {
+  top: 50%;
+  right: 25%;
+  transform: translate(20%, -50%);
+}
+
+.west {
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+}
+
+.north {
+  top: 50%;
+  left: 25%;
+  transform: translate(-20%, -50%);
+}
+
+.hidden {
+  display: none;
+}

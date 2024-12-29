@@ -1,0 +1,57 @@
+.container {
+  min-width: 62.5rem;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.title .dotLogo {
+  width: 12rem;
+}
+
+.title .name {
+  font-size: 6rem;
+}
+
+.options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+.options .dragonLogo {
+  width: 12rem;
+}
+
+.options .option {
+  padding: 1rem;
+  border-radius: 1rem;
+  font-size: 4rem;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.options .option:hover {
+  filter: brightness(1.5);
+}
+
+.options .offline {
+  background-color: #B83A24;
+  border: .5rem solid black;
+}
+
+.options .online {
+  background-color: #273C86;
+  border: .5rem solid black;
+}

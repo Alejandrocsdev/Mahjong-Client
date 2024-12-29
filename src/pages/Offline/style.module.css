@@ -1,0 +1,51 @@
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.table {
+  height: 100%;
+  aspect-ratio: 1/1;
+  border: 1rem solid var(--black);
+  position: relative;
+}
+
+.table .dragonLogo {
+  opacity: 0.5;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.table .wind {
+  width: 5rem;
+  opacity: 0.5;
+  position: absolute;
+}
+
+.table .east {
+  top: 50%;
+  left: 25%;
+  transform: translate(-20%, -50%);
+}
+
+.table .south {
+  bottom: 25%;
+  left: 50%;
+  transform: translate(-50%, 20%);
+}
+
+.table .west {
+  top: 50%;
+  right: 25%;
+  transform: translate(20%, -50%);
+}
+
+.table .north {
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+}
