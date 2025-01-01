@@ -2,10 +2,10 @@
 import { Link } from 'react-router-dom'
 
 // 錨點
-function Anchor({ path, style, onClick, children }) {
+function Anchor({ path, style, children }) {
   return (
     <>
-      <Link to={path} className={style} target="_self" onClick={onClick}>
+      <Link to={path} className={style}>
         {children}
       </Link>
     </>

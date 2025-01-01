@@ -1,0 +1,6 @@
+.base {
+  border-radius: 0.2rem;
+  border: 1px solid gray;
+  background-image: url('../../assets/img/mahjong/sprite-sheet/sprite-sheet.webp');
+  background-repeat: no-repeat;
+}

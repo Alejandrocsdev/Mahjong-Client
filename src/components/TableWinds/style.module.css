@@ -1,31 +1,31 @@
 .wind {
-  width: 5rem;
+  width: 4rem;
   opacity: 0.5;
   position: absolute;
 }
 
 .east {
-  bottom: 25%;
+  bottom: 0;
   left: 50%;
-  transform: translate(-50%, 20%);
+  transform: translate(-50%, 0);
 }
 
 .south {
   top: 50%;
-  right: 25%;
-  transform: translate(20%, -50%);
+  right: 0;
+  transform: translate(0, -50%);
 }
 
 .west {
-  top: 25%;
+  top: 0;
   left: 50%;
-  transform: translate(-50%, -20%);
+  transform: translate(-50%, 0);
 }
 
 .north {
   top: 50%;
-  left: 25%;
-  transform: translate(-20%, -50%);
+  left: 0;
+  transform: translate(0, -50%);
 }
 
 .hidden {

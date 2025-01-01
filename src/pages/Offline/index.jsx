@@ -5,13 +5,15 @@ import TableWinds from '../../components/TableWinds'
 
 // 單機牌局
 function Offline() {
-  const startWind = ''
+  const startWind = 'east'
 
   return (
     <div className={S.container}>
       <div className={S.table}>
-        <img className={S.dragonLogo} src="img/table/dragon.png" />
-        <TableWinds start={startWind} />
+        <div className={S.tableDesign}>
+          <img className={S.dragonLogo} src="img/table/dragon.png" />
+          <TableWinds start={startWind} />
+        </div>
       </div>
     </div>
   )
